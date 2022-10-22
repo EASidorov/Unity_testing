@@ -9,4 +9,8 @@ https://assetstore.unity.com/packages/tools/utilities/altunity-tester-ui-test-au
 
 
 
-Build link: https://gofile.io/d/rJAPa0
+Build link (MacOSX): https://gofile.io/d/rJAPa0
+
+To test:
+1. Run app 
+2. Run "$ pytest -s main.py" in Terminal in main.py directory.
