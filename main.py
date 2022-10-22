@@ -39,6 +39,7 @@ class MyFirstTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.altdriver.stop()
 
+    """Тест: Подойти к охраннику. Подтверждение: Проиграный звук"""
     # def test_move_to_guard(self):
     #     Secrom = SecurityRoom(self.altdriver)
     #     Secrom.load()
@@ -47,6 +48,8 @@ class MyFirstTest(unittest.TestCase):
     #     if Secrom.VO.get_component_property("UnityEngine.AudioSource", "clip", 'UnityEngine.AudioModule'):
     #         return True
 
+
+    """Тест: Перейти в локацию Рынок и поднять монету. Подтверждение: появление изображения в слоте инвентаря"""
     # def test_coin_pick_up(self):
     #     self.altdriver.find_object(By.NAME, 'DoorToMarketInteractable').click()
     #     time.sleep(5)
@@ -56,7 +59,7 @@ class MyFirstTest(unittest.TestCase):
     #     if inv1.get_component_property('UnityEngine.UI.Image', 'sprite', 'UnityEngine.UI'):
     #         return True
 
-    #
+    """Тест: Перейти обратно в локацию Команата охраны. Подтверждение: возвращение текущей сцены"""
     # def test_go_to_security_room(self):
     #     Market(self.altdriver).load()
     #     self.altdriver.find_object(By.NAME, 'DoorToSecurityRoom').click()
